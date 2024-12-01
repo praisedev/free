@@ -628,7 +628,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 TIMEZONE=$(printf '%(%H:%M:%S)T')
 TEXT="
 <code>────────────────────</code>
-<b>⛈️ NOTIFICATION SCRIPT FREE ⛈️</b>
+<b>NOTIFICATION SCRIPT</b>
 <code>────────────────────</code>
 <code>User    :</code><code>$(cat /root/.arthor)</code>
 <code>ISP     :</code><code>$(cat /root/.isp)</code>
@@ -638,9 +638,7 @@ TEXT="
 <code>Expired :</code><code>$exp</code>
 <code>────────────────────</code>
 <i>Automatic Notifications From</i>
-<b>𝑿𝑫𝑿𝑳 𝑺𝑻𝑶𝑹𝑬 𝑩𝑶𝑻</b>
 <code>────────────────────</code>
-"'&reply_markup={"inline_keyboard":[[{"text":" ⛈️ ʙᴜʏ ꜱᴄʀɪᴘᴛ ⛈️ ","url":"https://t.me/xdxl_store"}]]}' 
 
 if [ -f /root/scdomain ];then
 rm /root/scdomain > /dev/null 2>&1
